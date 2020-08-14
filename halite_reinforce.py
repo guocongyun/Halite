@@ -33,5 +33,5 @@ logging.disable(sys.maxsize)
 global ship_
 
 env = make("halite", debug=True)
-env.run(["random"])
+env.run(["submission.py", "random", "random", "random"])
 env.render(mode="ipython",width=800, height=600)
